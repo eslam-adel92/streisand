@@ -66,7 +66,7 @@ Python 3.
 
 ensure_python_3_5 () {
     python_version=$($python --version 2>&1)
-    if [[ $python_version < "Python 3.5" ]]; then
+    if [[ $python_version < "Python 3.0" ]]; then
 	echo "
 
 The $python command invokes $python_version. Python 3.5 or later is

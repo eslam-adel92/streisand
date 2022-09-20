@@ -23,8 +23,8 @@ export GLOBAL_VARS="${PROJECT_DIR}/global_vars/globals.yml"
 
 # Include the check_ansible function from ansible_check.sh.
 # shellcheck source=util/source_validate_and_deploy.sh
-source "${PROJECT_DIR}/util/ansible_check.sh"
-check_ansible
+# source "${PROJECT_DIR}/util/ansible_check.sh"
+# check_ansible
 
 # --------------------------------------------------------------------------
 # Reading options.
